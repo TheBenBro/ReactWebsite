@@ -1,0 +1,12 @@
+
+
+.aboutPage{
+    font-family: arvoBold;
+}
+.aboutPara{
+    font-family: arvoRegular;
+    font-size: 200%;
+	max-width: 5s0ch; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}

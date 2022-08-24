@@ -1,0 +1,26 @@
+*{background-color: rgb(215, 250, 244);}
+.home {
+  text-align: center;
+}
+.container{
+  max-width: 99%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+@font-face {
+  font-family: arvoRegular;
+  src: url('./Fonts/Arvo-Regular.ttf');
+}
+@font-face {
+  font-family: arvoBold;
+  src: url('./Fonts/Arvo-Bold.ttf');
+}
+@font-face {
+  font-family: arvoBoldIt;
+  src: url('./Fonts/Arvo-BoldItalic.ttf');
+}
+@font-face {
+  font-family: arvoIt;
+  src: url('./Fonts/Arvo-Italic.ttf');
+}

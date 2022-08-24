@@ -1,0 +1,41 @@
+
+:root{
+  --nav-bg-color: #333;
+}
+body {
+    margin: 0;
+  }
+  
+  .site-title {
+      font-size: 2rem;
+    }
+    
+    .nav {
+      background-color: var(--nav-bg-color);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+    .nav ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      background-color: var(--nav-bg-color);
+    
+    }
+    
+    .nav a {
+      color: inherit;
+      background-color: var(--nav-bg-color);
+      height: 100%;
+      display: flex;
+      text-decoration: none;
+      font-family: arvoBold;
+      align-items: center;
+      padding: 2rem;
+    }
